@@ -27,3 +27,14 @@ The library consists of the following core components:
 1. Create a @Document marked class, make that this extends the `AuditNoSqlRepository` and annotate it with `@AutoControlable`.
 2. Define a @Repostiry marked interface and extends `AuditNoSqlRepository`.
 3. The library will automatically generate the CRUD endpoints for your entity.
+
+## Application.Properties example
+
+spring.application.name=your-app-name
+
+all your mongodb config
+spring.data.mongodb.uri=your-mongo-db-uri
+spring.data.mongodb.database=your-mongo-db-database
+
+requiered cors data
+cors.allowed-origin=http://localhost:3000
