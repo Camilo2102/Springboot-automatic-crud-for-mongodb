@@ -4,7 +4,7 @@ This library in an implementation of the core library:
 
 https://github.com/Camilo2102/web-starter
 
-Provides an agile and straightforward solution for creating CRUD (Create, Read, Update, Delete) operations and their respective endpoints in Spring Boot applications using annotations, redy to use with MongoDB (No MongoDB library requiered) available in Sonatype Maven Central:
+Provides an agile and straightforward solution for creating CRUD (Create, Read, Update, Delete) operations and their respective endpoints in Spring Boot applications using annotations compatible with Netflix Eureka(disable with application.propeties "eureka.client.enabled=false"), redy to use with MongoDB (No MongoDB library requiered) available in Sonatype Maven Central:
 
 https://central.sonatype.com/artifact/cloud.webgen.web.starter.nosql/web-nosql-starter
 
