@@ -30,12 +30,15 @@ The library consists of the following core components:
 
 ## Application.Properties example
 
-spring.application.name=your-app-name
+spring properties
+
+- spring.application.name=your-app-name
 
 all your mongodb config
 
-spring.data.mongodb.uri=your-mongo-db-uri
-spring.data.mongodb.database=your-mongo-db-database
+- spring.data.mongodb.uri=your-mongo-db-uri
+- spring.data.mongodb.database=your-mongo-db-database
 
 requiered cors data
-cors.allowed-origin=http://localhost:3000
+
+- cors.allowed-origin=http://localhost:3000
