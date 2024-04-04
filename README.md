@@ -33,6 +33,7 @@ The library consists of the following core components:
 spring.application.name=your-app-name
 
 all your mongodb config
+
 spring.data.mongodb.uri=your-mongo-db-uri
 spring.data.mongodb.database=your-mongo-db-database
 
